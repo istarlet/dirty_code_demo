@@ -50,7 +50,7 @@ while last_input != "Quit":
     second = last_input
 
     print("Please input users birthday_year. 'Quit' to exit the program")
-    last_input = input()
+    last_input = str(input())
     third = last_input
     
     print("Please input users favorite hobby. 'Quit' to exit the program")
